@@ -5,7 +5,7 @@ para automatizar tarefas repetitivas em sistemas web.
 
 ## Aulas
 
-- [Aula 1 — Cadastro de Produtos](#aula-1--cadastro-de-produtos)
+- [Aula 1 — Cadastro de Produtos com automação](#aula-1--cadastro-de-produtos)
 
 ---
 
@@ -73,10 +73,3 @@ python gabarito.py
 Evite mexer no mouse/teclado enquanto o script roda — como ele usa
 coordenadas fixas de tela, qualquer interferência pode fazer ele clicar no
 lugar errado.
-
-### ⚠️ Observação de segurança
-
-O `gabarito.py` tem um email e senha reais escritos direto no código.
-Antes de subir esse projeto pro GitHub ou compartilhar com alguém,
-**remova essas credenciais** e troque por variáveis de ambiente ou um
-arquivo `.env` (que não deve ser commitado).
