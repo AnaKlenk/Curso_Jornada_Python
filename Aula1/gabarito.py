@@ -22,11 +22,11 @@ time.sleep(3)
 
 # Passo 2: Fazer login
 pa.click(x=545, y=369)
-pa.write("ana@gmail.com")
+pa.write("emailteste@gmail.com")
 time.sleep(1)
 pa.press("tab")
 time.sleep(1)
-pa.write("A@na1.2.3")
+pa.write("T@este.2.3")
 time.sleep(1)
 pa.press("tab")
 time.sleep(1)
